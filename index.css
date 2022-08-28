@@ -1,0 +1,42 @@
+html {font: 62.5%;}
+
+body{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brand-logo{
+    opacity: .7;
+}
+.flex{
+    display: flex;
+}
+#navbar{
+    
+}
+
+.ideas{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.sign-up{
+    top: 0;
+    display: flex;
+
+}
+ .close-pop{
+    display: none;
+    visibility: hidden;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s;
+}
+.pop-mod{
+    display: flex;
+    align-items: center;
+    transform: scale(0.8);
+    overflow: hidden;
+}
