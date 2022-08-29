@@ -10,7 +10,12 @@
     <title>CeltTech</title>
 </head>
 <body>
-  <div class="reviews shadow rounded-3 " id="rev-pop">
+  <audio src="./music/My items - Awesome Screenshot - Awesome Screenshot.mp4" autoplay></audio>
+  <div onclick="unTogglePop()" class="review-tab fixed review-tab-remove  " id="tab-review">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-chat-left-dots-fill " viewBox="0 0 16 16">
+      <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    </svg>  </div>
+  <div class="reviews shadow rounded-3 fixed" id="rev-pop">
     <div onclick="togglePop()" class=" flex-column align-items-stretch  bg-white" id="review-toggle" style="width: 350px;">
       <a href="/" class=" align-items-center  p-3 link-dark text-decoration-none border-bottom" id="href">
         <svg class="bi pe-none me-2" width="30" height="50"><use xlink:href="#bootstrap"></use></svg>
@@ -130,7 +135,7 @@
         <div class="d-flex gap-2 w-100 justify-content-between">
           <div>
             <h6 class="mb-0">PHONE CALL</h6>
-            <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+            <p class="mb-0 opacity-75">Give us a call</p>
           </div>
           <small class="opacity-50 text-nowrap">now</small>
         </div>
@@ -140,7 +145,7 @@
         <div class="d-flex gap-2 w-100 justify-content-between">
           <div>
             <h6 class="mb-0">EMAIL</h6>
-            <p class="mb-0 opacity-75">Some placeholder content in a paragraph that goes a little longer so it wraps to a new line.</p>
+            <p class="mb-0 opacity-75">Send an email</p>
           </div>
           <small class="opacity-50 text-nowrap">3d</small>
         </div>
@@ -150,7 +155,7 @@
         <div class="d-flex gap-2 w-100 justify-content-between">
           <div>
             <h6 class="mb-0">CHAT WITH US</h6>
-            <p class="mb-0 opacity-75">Some placeholder content in a paragraph.</p>
+            <p class="mb-0 opacity-75">Or if you prefer you can chat with us online</p>
           </div>
           <small class="opacity-50 text-nowrap">1w</small>
         </div>
