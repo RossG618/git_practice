@@ -12,9 +12,6 @@ body{
 .flex{
     display: flex;
 }
-#navbar{
-    
-}
 
 .ideas{
     background: #2980B9;  /* fallback for old browsers */
@@ -31,6 +28,14 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
     display: flex;
     align-items: center;
     transform: scale(0.8);
+    overflow: hidden;
+    top: 0;
+    transition: all 1s;
+}
+.pop-mod-sign{
+    display: flex;
+    align-items: center;
+    transform: scale(1);
     overflow: hidden;
     top: 0;
     transition: all 1s;

@@ -1,3 +1,7 @@
+
 function linkAlert() {
-    console.log(alert('Sparta link not working'));
+  alert('Sparta link not working');
+  if (confirm){
+
+  }
 }

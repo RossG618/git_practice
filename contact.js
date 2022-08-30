@@ -5,7 +5,3 @@ function contact(){
  option.classList.add("d-flex");
 }
 
-function out(){
-    option.classList.remove("d-flex");
-}
-option.addEventListener('mousedown', out);
