@@ -4,3 +4,4 @@ function closePop() {
     popup.classList.add("close-pop");
   
         }
+        
